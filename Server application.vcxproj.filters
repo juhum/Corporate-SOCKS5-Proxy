@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Libraries\ProxyConfiguration.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Libraries\ProxyServer.cpp" />
+    <ClCompile Include="Libraries\Logger.cpp" />
+    <ClCompile Include="Libraries\Database.cpp" />
+    <ClCompile Include="Libraries\Authenticator.cpp" />
+    <ClCompile Include="Libraries\GSSAPI.cpp" />
+    <ClCompile Include="Libraries\Handle_Authentication.cpp" />
+    <ClCompile Include="Libraries\No_Authentication.cpp" />
+    <ClCompile Include="Libraries\Username_Password.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libraries\Logger.h" />
+    <ClInclude Include="Libraries\ProxyConfiguration.h" />
+    <ClInclude Include="Libraries\Authenticator.h" />
+    <ClInclude Include="Libraries\ProxyServer.h" />
+    <ClInclude Include="Libraries\Database.h" />
+    <ClInclude Include="Libraries\Authentication_Method.h" />
+    <ClInclude Include="Libraries\GSSAPI.h" />
+    <ClInclude Include="Libraries\Handle_Authentication.h" />
+    <ClInclude Include="Libraries\No_Authentication.h" />
+    <ClInclude Include="Libraries\Username_Password.h" />
+  </ItemGroup>
+</Project>
